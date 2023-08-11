@@ -1,4 +1,5 @@
-let names = ["khayam", "haider", "hurira", "abu bakery", "hasnain"]
+//Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
+let names = ["khayam", "haider", "hurira", "abu baker", "hasnain"]
 
 console.log(names[0]);
 console.log(names[1]);
