@@ -21,11 +21,15 @@ var printInvitations = function (guests) {
     }
 };
 printInvitations(guestList);
+
 // Print a message about the guest who can't make it
 console.log("Unfortunately, ".concat(guestList[1], " can't make it to the dinner."));
-// Someone can't make it
+
+// Remove the guest
 guestList.splice(1, 1)[0];
+
 // Replace or add new guest
 guestList.splice(1, 0, "Abu baker");
+
 // updated guest list message
 printInvitations(guestList);
