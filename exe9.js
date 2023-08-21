@@ -1,4 +1,7 @@
-// Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
-var favoriteNumber = 1;
-var message2 = "my favorite number: ".concat(favoriteNumber);
-console.log(message2);
+// Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
+//Alham Ahmad;
+//this program will be returned my name and age;
+var Myname = function (Name, num) {
+    return "my name is ".concat(Name, " and my age is ").concat(num);
+};
+console.log(Myname("Alham Ahmad", 20));
