@@ -71,3 +71,4 @@ guestList.pop();
 guestList.pop();
 // Print the empty list
 console.log("After removing all guests, the list is now:", guestList);
+console.log("Number of people being invited to dinner: ".concat(guestList.length));
