@@ -11,4 +11,4 @@ console.log(invalidIndex);
 if (invalidIndex < progLanguages.length) {
   console.log("Valid index:", progLanguages[invalidIndex]);
 } else {
-  console.log("Invalid index, out of bounds.")};
+  console.log("Invalid index.")};
