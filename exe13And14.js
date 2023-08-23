@@ -1,11 +1,11 @@
+"use strict";
 // Q14: Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
 // Define the guest list as an array of strings
-var guestList = ["Khayam Khan", "Hurira Khan", "Wadoon Ahmad", "Malik Baber"];
+let guestList = ["Khayam Khan", "Hurira Khan", "Wadoon Ahmad", "Malik Baber"];
 //Use function to print invitation messages
-var printInvitations = function (guests) {
-    for (var _i = 0, guests_1 = guests; _i < guests_1.length; _i++) {
-        var guest = guests_1[_i];
-        console.log("Dear ".concat(guest, ", you are invited to dinner at my place. Please join us!"));
+let printInvitations = (guests) => {
+    for (let guest of guests) {
+        console.log(`Dear ${guest}, you are invited to dinner at my place. Please join us!`);
     }
 };
 printInvitations(guestList);
@@ -19,7 +19,7 @@ Q15: Changing Guest List: You just heard that one of your guests can’t make th
 • Print a second set of invitation messages, one for each person who is still in your list.
 */
 // Print a message about the guest who can't make it
-console.log("Unfortunately, ".concat(guestList[1], " can't make it to the dinner."));
+console.log(`Unfortunately, ${guestList[1]} can't make it to the dinner.`);
 // Someone can't make it
 guestList.splice(1, 1)[0];
 // Replace or add new guest
@@ -63,7 +63,7 @@ Shrinking Guest List: You just found out that your new dinner table won’t arri
 // Shrinking guest list
 console.log("Unfortunately, the new dinner table won't arrive in time. We can only invite two people for dinner.");
 guestList.splice(0, 5);
-console.log("Sorry, ".concat(guestList, ", we can't invite you to dinner."));
+console.log(`Sorry, ${guestList}, we can't invite you to dinner.`);
 // Print invitation messages for the remaining two guests
 printInvitations(guestList);
 // Remove the last two names
@@ -71,6 +71,6 @@ guestList.pop();
 guestList.pop();
 // Print the empty list
 console.log("After removing all guests, the list is now:", guestList);
-//19 : Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
-//number of people you are inviting to dinner.
-console.log("Number of people being invited to dinner: ".concat(guestList.length));
+// 19 : Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
+//the number of people you are inviting to dinner.
+console.log(`Number of people being invited to dinner: ${guestList.length}`);
