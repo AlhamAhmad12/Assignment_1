@@ -20,6 +20,7 @@ var cars = [{
         modle: 2018
     }
 ];
+var car;
 console.log("car names modle and color:");
 for (var _i = 0, cars_1 = cars; _i < cars_1.length; _i++) {
     car = cars_1[_i];
