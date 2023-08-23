@@ -71,4 +71,6 @@ guestList.pop();
 guestList.pop();
 // Print the empty list
 console.log("After removing all guests, the list is now:", guestList);
+//19 : Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
+//number of people you are inviting to dinner.
 console.log("Number of people being invited to dinner: ".concat(guestList.length));
