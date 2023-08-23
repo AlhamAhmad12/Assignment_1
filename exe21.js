@@ -1,5 +1,6 @@
+"use strict";
 //They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
-var cars = [{
+let cars = [{
         name: "honda",
         color: "white",
         modle: 2023
@@ -20,9 +21,8 @@ var cars = [{
         modle: 2018
     }
 ];
-var car;
+let car;
 console.log("car names modle and color:");
-for (var _i = 0, cars_1 = cars; _i < cars_1.length; _i++) {
-    car = cars_1[_i];
-    console.log("car ".concat(car.name, " modle ").concat(car.modle, " and color ").concat(car.color));
+for (car of cars) {
+    console.log(`car ${car.name} modle ${car.modle} and color ${car.color}`);
 }
