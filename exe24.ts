@@ -62,12 +62,12 @@ console.log(laptop || computer);
 
 // Test whether an item is in a array
 
-let array11 = ["BMW", "Audi", "Ferrari", "Honda",];
+let array = ["BMW", "Audi", "Ferrari", "Honda",];
 
 console.log("is BMW is included in the array? I predict True.");
-console.log(array11.includes("BMW"));
+console.log(array.includes("BMW"));
 
 // Test whether an item is not in a array
 
 console.log("is Audi is not included in the array ? I predict False");
-console.log(!array11.includes("Audi"));
+console.log(!array.includes("Audi"));
