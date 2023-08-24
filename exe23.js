@@ -15,7 +15,7 @@ console.log(boolTrue === true);
 console.log("Is name12 not equal to 'alham'? I predict False.");
 console.log(name12 !== "alham");
 console.log("Is number greater than 30? I predict True.");
-console.log(number > 30);
+console.log(number1 > 30);
 console.log("Is boolTrue not equal to true? I predict false.");
 console.log(boolTrue !== true);
 console.log("Is name12 equal to 'alham'? I predict true.");
