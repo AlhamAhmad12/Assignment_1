@@ -1,8 +1,7 @@
-"use strict";
-let number1 = 42;
-let string = "hello";
-let boolTrue = true;
-let name12 = "alham";
+var number1 = 42;
+var string = "hello";
+var boolTrue = true;
+var name12 = "alham";
 console.log("Is number equal to 42? I predict True.");
 console.log(number1 === 42);
 console.log("Is string not equal to 'hello'? I predict false.");
