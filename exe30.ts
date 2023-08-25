@@ -7,7 +7,7 @@ No Users: Add an if test to Exercise 28 to make sure the list of users is not em
 • Remove all of the usernames from your array, and make sure the correct message is printed.
   */
 
-let usernames = ["admin", "alham", "hurira", "wadoon"]
+let usernames = ["admin", "Alham", "Hurira", "Wadoon"]
 
 if(usernames.length > 0){
   for(let username of usernames){
