@@ -5,7 +5,7 @@ const addition = 4+4;
 
 console.log("addition:", addition);
 
-//subtraction
+//subtraction 
 
 const subtraction = 16-8;
 

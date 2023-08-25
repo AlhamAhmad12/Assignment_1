@@ -40,4 +40,4 @@ console.log("Is name12 equal to 'alham'? I predict true.");
 console.log(name12 === "alham");
 
 console.log("Is number less than or equal to 20? I predict False.");
-console.log(number1 <= 20);
+console.log(number1 <= 20); 

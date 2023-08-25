@@ -7,4 +7,4 @@ favoriteTransportation.push(["Bike", "Ninja H2R"]);
 favoriteTransportation.push(["bycycle", "surab"]);
 
 favoriteTransportation.forEach(([brand, name]) =>
-  console.log(`I would like to own a ${brand} ${name}.`)) 
+  console.log(`I would like to own a ${brand} ${name}.`)); 

@@ -31,7 +31,7 @@ console.log("Reverse alphabetical order:", [...placesToVisit].sort().reverse());
 console.log("Original order remains:", placesToVisit);
 
 // Reverse the order of the list
-placesToVisit.reverse();
+placesToVisit.reverse(); 
 console.log("Reversed order:", placesToVisit);
 
 // Reverse the order again to get back to original order

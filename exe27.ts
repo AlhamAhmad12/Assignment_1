@@ -31,7 +31,7 @@ if (alien_color === 'green') {
 
     }else if(alien_color === 'red'){
         console.log("the player earned 15 points")
-    }
+    };
 
     // If the alien is red, print a message that the player earned 15 points.
     var alien_color = 'red';
@@ -42,4 +42,4 @@ if (alien_color === 'green') {
         console.log("the player earned 10 points")
     }else if (alien_color === 'red'){
         console.log("the player earned 15 points")
-    }
+    };

@@ -7,4 +7,4 @@ const mountainsList: string[] = ["Annapurna II", "Manaslu", "Cho Oyu", "Makalu",
   console.log("List of mountains:");
   for (const mountain of mountainsList) {
     console.log(mountain);
-  }
+  };

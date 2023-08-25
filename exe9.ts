@@ -6,4 +6,4 @@ let Myname = (Name: string, num : number) => {
 
     return `my name is ${Name} and my age is ${num}`
 }
-console.log(Myname("Alham Ahmad",20))
+console.log(Myname("Alham Ahmad",20));

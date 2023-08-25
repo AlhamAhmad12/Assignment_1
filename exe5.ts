@@ -2,4 +2,4 @@
 
 let person = "\t  Alham  \n";
 
-console.log("Stripping Name:", person);
+console.log("Stripping Name:", person); 

@@ -13,7 +13,7 @@ if(alien_color === "yellow") {
 
 } else {
     console.log("you just earned 10 points for shooting the alien.")
-}
+} 
 
 alien_color = "red";
 

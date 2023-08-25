@@ -87,7 +87,7 @@ Shrinking Guest List: You just found out that your new dinner table won’t arri
 // Shrinking guest list
 console.log("Unfortunately, the new dinner table won't arrive in time. We can only invite two people for dinner.");
 
-guestList.splice(0,5)
+guestList.splice(0,5);
 
     console.log(`Sorry, ${guestList}, we can't invite you to dinner.`);
 

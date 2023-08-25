@@ -29,4 +29,4 @@ let cars = [ {
 
     console.log(`car ${car.name} modle ${car.modle} and color ${car.color}`)
   
-}
+};

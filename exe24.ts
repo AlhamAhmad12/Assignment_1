@@ -29,7 +29,7 @@ console.log(name11.toLowerCase() === "Aham")
 
 let number22 = 100;
 
-console.log("is number22 is equal to 100? I predict true")
+console.log("is number22 is equal to 100? I predict true") 
 console.log(number22 == 100)
 
 console.log("is number22 is not equal to 100? I predict false")
