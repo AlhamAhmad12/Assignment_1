@@ -26,3 +26,4 @@ console.log("car names modle and color:");
 for (car of cars) {
     console.log(`car ${car.name} modle ${car.modle} and color ${car.color}`);
 }
+;

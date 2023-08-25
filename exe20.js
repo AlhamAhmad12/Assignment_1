@@ -7,3 +7,4 @@ console.log("List of mountains:");
 for (const mountain of mountainsList) {
     console.log(mountain);
 }
+;

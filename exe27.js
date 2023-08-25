@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question No 28
 Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.
@@ -28,6 +29,7 @@ else if (alien_color === 'yellow') {
 else if (alien_color === 'red') {
     console.log("the player earned 15 points");
 }
+;
 // If the alien is red, print a message that the player earned 15 points.
 var alien_color = 'red';
 if (alien_color === 'green') {
@@ -39,3 +41,4 @@ else if (alien_color === 'yellow') {
 else if (alien_color === 'red') {
     console.log("the player earned 15 points");
 }
+;
